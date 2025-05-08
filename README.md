@@ -10,6 +10,8 @@ A simple Deno utility to download all URLs from a text file.
 
 `download-urls.js` is a lightweight command-line tool that makes it easy to download multiple files from a list of URLs. It reads URLs from a text file (one per line) and downloads each file sequentially.
 
+I wrote this because I could never remember the flags to `httpie` or `curl` and my `wget` is borken and ask me if I care. 🤔
+
 ## Features
 
 - Download files from a list of URLs in a text file
