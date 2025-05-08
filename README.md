@@ -37,11 +37,13 @@ cd download-urls
 
 ### Option 2: Install Globally
 
+
 You can install the script globally to run it from anywhere on your system:
 
 ```bash
 # Install globally using Deno
-deno install --allow-net --allow-read --allow-write -n download-urls https://raw.githubusercontent.com/yourusername/download-urls/main/download-urls.js
+deno install --global --allow-net --allow-read --allow-write -n download-urls https://raw.githubusercontent.com/amundo/download-urls/main/download-urls.js
+
 
 # Now you can run it from anywhere
 download-urls urls.txt
